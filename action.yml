@@ -1,0 +1,10 @@
+name: "Run clang formatting"
+author: "jeffavickers@gmail.com"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  
+branding:
+  icon: "coffee"
+  color: "blue"
