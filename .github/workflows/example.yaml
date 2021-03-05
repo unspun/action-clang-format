@@ -1,0 +1,9 @@
+on: push
+
+jobs:
+  clang-format:
+    name: clang formatting
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: unspun/action-clang-format@v0.2
