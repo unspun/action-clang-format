@@ -9,5 +9,3 @@ apt-get install -y \
     clang-format
     
 ./ci.sh
-    
-sh -c "echo Hello world my name is $INPUT_MY_NAME"
